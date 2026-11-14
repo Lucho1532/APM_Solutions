@@ -52,18 +52,20 @@
         <!-- Tarjeta Grúa 3D (Siempre visible) -->
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
         
-        <div class="card card-grua3d" id="card-grua3d">
-            <h3>Nuestra Grúa</h3>
-            <div style="padding: 20px;">
-                <model-viewer src="public/header/grua.glb"
-                    camera-controls
-                    auto-rotate
-                    auto-rotate-delay="0"
-                    rotation-per-second="30deg"
-                    interaction-prompt="none"
-                    alt="Modelo grua 3D APM"
-                    style="width: 100%; height: 350px; background-color: #f8fafc; border-radius: 12px;">
-                </model-viewer>
+        <div class="card-blue card-grua3d" id="card-grua3d">
+            <h3>Nuestra Grua</h3>
+            <div class="contenido-desplegable">
+                <div class="inner-content">
+                    <model-viewer src="public/header/grua.glb"
+                        camera-controls
+                        auto-rotate
+                        auto-rotate-delay="0"
+                        rotation-per-second="30deg"
+                        interaction-prompt="none"
+                        alt="Modelo grua 3D APM"
+                        style="width: 100%; height: 300px;">
+                    </model-viewer>
+                </div>
             </div>
         </div>
 
